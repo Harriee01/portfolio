@@ -209,9 +209,7 @@ span {
 .contact-form {
     width: 100%;
     min-height: 100vh; /* Takes up the full height of the viewport */
-    padding: 100px 12% 0;
 }
-
 .contact-form h2 {
     text-align: center;
     margin-top: 3em;
@@ -220,7 +218,7 @@ span {
 }
 
 .contact-form form {
-    max-width: 50em;
+    max-width: 35em;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3em;
@@ -232,6 +230,9 @@ span {
     flex-wrap: wrap;
 }
 
+.contact-form form .input-box input{
+    height: 40px;
+}
 .contact-form form .input-box input,
 .contact-form form textarea {
     width: 100%;
@@ -242,6 +243,7 @@ span {
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
+    border: none;
 }
 
 /*Footer section*/
